@@ -198,6 +198,11 @@ pre code {
 <div id="numerical-descriptive-results" class="section level3">
 <h3>Numerical Descriptive Results</h3>
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+<pre class="r"><code>favstats(pushups~position,data=mydata)</code></pre>
+<pre><code>##   position min    Q1 median    Q3 max     mean        sd  n missing
+## 1     LINE   6 10.25   14.5 24.25  34 17.12500  9.745878  8       0
+## 2    SKILL  18 31.25   47.5 57.50 108 49.72727 23.036579 22       0</code></pre>
+<p>The mean amount of push ups for line players is approximately 17 push ups, while the mean amount for skill players is almost 50 push ups. This presents us with a clearer difference between the average number of push ups for line players and skill players.</p>
 </div>
 </div>
 <div id="inferential-results" class="section level2">
